@@ -19,13 +19,13 @@ export function y2(){
     for (let l = 0; l <= 0 && l <= 4; ++l || l--)
         for (let m = 0; m <= 0 && m <= 4; ++m || m--)
             for (let n = 0; n <= 0 && n <= 4; ++n || n--)
-console.log(l,m,n)
+console.log(l, m, n)
 }
 export function z2(){
     for (let o = 0; o >= -4; o--)
         for (let p = 0; p >= -4; p--)
             for (let q = 0; q >= -4; q--)
-console.log(o,p,q)
+console.log(o, p, q)
 }
 export function t2(){
     do `x2*y2`
