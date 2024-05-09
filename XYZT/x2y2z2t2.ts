@@ -22,9 +22,9 @@ export function y2(){
 console.log(l,m,n)
 }
 export function z2(){
-    for (let o = 0; o <= 4; o--)
-        for (let p = 0; p <= 4; ++p)
-            for (let q = 0; q <= 4; ++q)
+    for (let o = 0; o >= -4; o--)
+        for (let p = 0; p >= -4; p--)
+            for (let q = 0; q >= -4; q--)
 console.log(o,p,q)
 }
 export function t2(){
