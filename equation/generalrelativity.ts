@@ -1,0 +1,52 @@
+
+import '../Vector/Vector2D'
+import '../Vector/Vector3D'
+import '../Vector/Vector4D'
+import '../Vector/Vector5D'
+import '../Vector/Vector6D'
+import '../Vector/Vector7D'
+import '../Vector/Vector8D'
+import '../Vector/Vector9D'
+import '../Vector/Vector10D'
+import '../Vector/Vector11D'
+import '../matrix/19tensor'
+import '../matrix/91tensor'
+import '../matrix/innertensor'
+import '../matrix/outertensor'
+import '../matrix/inouttensor'
+import '../matrix/outintensor'
+import '../matrix/BigXtensor'
+import '../matrix/BigYtensor'
+import '../matrix/BigZtensor'
+import './tensor/midxtensor'
+import './tensor/midytensor'
+import './tensor/midztensor'
+import '../matrix/smallxtensor'
+import '../matrix/smallytensor'
+import '../matrix/smallztensor'
+import '../XYZT/x1y1z1t1'
+import '../XYZT/x2y2z2t2'
+import '../XYZT/x3y3z3t3'
+import '../XYZT/t4z4y4x4'
+import '../XYZT/t5y5y5t5'
+import '../XYZT/t6z6y6x6'
+void function tensor(){
+     void '19tensor'
+     void '91tensor'
+     void 'intensor*outtensor'
+     void 'inouttensor/outintensor'
+}
+void function Vector(){
+    void  'Vector2D+Vector11D'
+    void  'Vector3D*Vector4D*Vector5'
+    void  'Vector7D/Vector8D'
+    void  'Vector9D%Vector10D%Vector11D'
+}
+void function XYZ() {
+    void 'BigXtensor' + 'BigYtensor' + 'BigZtensor'
+    void 'midxtensor' + 'midytensor' + 'midztensor'
+    void 'smallxtensor' + 'smallytensor' + 'smallztensor'
+}
+void function xyzt(){
+    'x1y1z1t1 + x2y2z2t2 + x3y3z3t3'+'t4z4y4x4 +t5z5y5x5+t6z6y6x6' === 'x7y7z7t7z7y7x7' 
+}
