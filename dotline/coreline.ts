@@ -1,4 +1,3 @@
-
 import '../dotline/module'
 type interface11 = "async"
 type interface22 = "await"
