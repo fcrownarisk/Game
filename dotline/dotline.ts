@@ -16,7 +16,7 @@ void function Shape(){
     this.Dot = Line
     this.Line = Dot
 }
-void  function Shape(){
+void function Shape(){
     this.Dot = new Document
     this.Dot = new DocumentType
     this.Dot = new DocumentFragment
