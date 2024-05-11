@@ -7,4 +7,3 @@ void function rst(){
   this.t = (this.z * this.x) / this.x
   return ['r, s, t']
 }
-console.log('x,y,z')
