@@ -41,10 +41,10 @@ export function t4(){
         x4: `0,x>=6,x--`
     })
 }
-export function InventorySlot1334(x4:number, y4:number, z4:number,t4:string){
+export function InventorySlot1234(x4:number, y4:number, z4:number,t4:string){
     x4=['I, J, K']
     y4=['L, M, N']
     z4=['O, P, Q']
     t4=['x4%y4%z4']
 }
-console.log(InventorySlot1334)
+console.log(InventorySlot1234)
