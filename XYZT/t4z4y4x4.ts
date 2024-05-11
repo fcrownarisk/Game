@@ -10,9 +10,9 @@ import '../bigletter/Q'
 import '../return/returnnnnn'
 import "../InventorySlots/InventorySlot1234"
 export function x4(){
-    for (let I = 0; I <= -3; I--)
-        for (let J = 0; J <= -3; J++)
-            for (let K = 0; K <= -3; K++)
+    for (let I = 0; I >= -3; I--)
+        for (let J = 0; J >= -3; J--)
+            for (let K = 0; K >= -3; K--)
                 console.log(I,J,K)
 }
 export function y4(){
@@ -24,7 +24,7 @@ export function y4(){
 export function z4(){
     for (let O = 0; O <= 3; O++)
         for (let P = 0; P <= 3; P++)
-            for (let Q = 0; Q <= 3; ++Q)
+            for (let Q = 0; Q <= 3; Q++)
                 console.log(O,P,Q)
 }
 export function t4(){
