@@ -8,7 +8,7 @@ import '../bigletter/O'
 import '../bigletter/P'
 import '../bigletter/Q'
 import '../return/returnnnnn'
-import "../InventorySlots/InventorySlot1334"
+import "../InventorySlots/InventorySlot1234"
 export function x4() {
     for (let I = 0; I <= -3; I--)
         for (let J = 0; J <= -3; J++)
