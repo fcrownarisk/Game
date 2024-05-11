@@ -42,9 +42,9 @@ export function t1(){
         })
 }
 export function Inventory(){
-    'x4';['i, j, k']
-    'y4';['l, m, n']
-    'z4';['o, p, q']
-    't4';['x4+y4+4']
+    'x4'=['i, j, k']
+    'y4'=['l, m, n']
+    'z4'=['o, p, q']
+    't4'=['x4+y4+z4']
 }
 console.log(Inventory)
