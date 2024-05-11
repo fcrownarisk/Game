@@ -22,9 +22,9 @@ export function y4(){
                 console.log(L,M,N)
 }
 export function z4(){
-    for (let O =0; O <= 3; O++)
+    for (let O = 0; O <= 3; O++)
         for (let P = 0; P <= 3; P++)
-            for (let Q = 0; Q <= 0; ++Q)
+            for (let Q = 0; Q <= 3; ++Q)
                 console.log(O,P,Q)
 }
 export function t4(){
