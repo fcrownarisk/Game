@@ -9,11 +9,9 @@ enum Line{
 enum DotLine{
     Dot,Line
 }
-
 enum LineDot{
     Line,Dot
 }
-console.log(DotLine,LineDot)
 void function Shape(){
     this.Dot = Line
     this.Line = Dot
