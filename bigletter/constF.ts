@@ -11,5 +11,3 @@ void function tracedet(){
 void function dettrace(){
     return (m6%m7)*(m8%m9)
 }
-console.log(`m6`,`m7`,`m8`,`m9`)
-console.log('trace','det','tracedet','dettrace')
