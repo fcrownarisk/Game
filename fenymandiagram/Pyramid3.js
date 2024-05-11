@@ -1,6 +1,5 @@
-
 import './VolumnSurface/Pyramid'
-import './Vertice.Edges/Vertice/Pyramid2'
+import './VerticeEdges/Vertice/Pyramid2'
 void function Pyramid3(){
 const tri1 = 12321/11111
 const tri2 = 23432/22222
