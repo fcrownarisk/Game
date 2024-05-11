@@ -1,5 +1,3 @@
-
-
 void function IntArray() {
     let IntArray1 = 32
     let IntArray2 = 64
