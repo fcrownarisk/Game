@@ -3,5 +3,5 @@ void function A(){
     const A2 = 1;
     const A3 = 2;
     const A4 = 3;
-    `A=[A1,A2,A3,A4]`
+    return A=[A1,A2,A3,A4]
 }
