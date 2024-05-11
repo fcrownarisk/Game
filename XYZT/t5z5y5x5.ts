@@ -41,10 +41,10 @@ export function t5(){
         x5: `0,10>x>5,x--||x++`
     })
 }
-export function InventorySlot5678910(x5: number, y5: number, z5: number,t5:string){
-    x5;['Q,P,O']
-    y5;['N,M,L']
-    z5;['K,J,I']
-    t5;['x5/y5/z5']
+export function InventorySlot5678910(x5:number,y5:number,z5:number,t5:string){
+    x5=['Q,P,O']
+    y5=['N,M,L']
+    z5=['K,J,I']
+    t5=['x5/y5/z5']
 }
 console.log(InventorySlot5678910)
