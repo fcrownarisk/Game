@@ -8,7 +8,6 @@ void function N1InventorySlots() {
     this.N = new CacheStorage()
     this.CanvasRenderingContext2D = 'O'
     this.CanvasCaptureMediaStreamTrack = 'P'
-    return ['M','N','O','P']
 }
 export function N1InventorySlots() {
     Cache = this.M + this.N
