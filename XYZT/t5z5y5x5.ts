@@ -30,15 +30,15 @@ export function z5(){
 export function t5(){
     do `x5*y5`
     while ({
-        z5: `0,10>z>5,z--||z++`
+        z5: `0,5<=z<=10,z++||z--`
     })
     do `x5*z5`
     while ({
-        y5: `0,10>z>5,y--||y++`
+        y5: `0,5<=z<=10,y++||y--`
     })
     do `y5*z5`
     while ({
-        x5: `0,10>x>5,x--||x++`
+        x5: `0,5<=x<=10,x++||x--`
     })
 }
 export function InventorySlot5678910(x5:number,y5:number,z5:number,t5:string){
