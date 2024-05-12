@@ -1,5 +1,4 @@
-
-import '../InventorySlots/InventorySlots'
+import '../InventorySlots/Inventory'
 import '../InventorySlots/N1InventorySlots'
 void function InventorySlots(){
     void "|_|_|_| |_|_|_| |_|_|_|"
