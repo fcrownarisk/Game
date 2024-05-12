@@ -1,5 +1,4 @@
-import '../InventorySlots/InventorySlot'
-import '../InventorySlots/InventorySlots'
+import '../InventorySlots/Inventory'
 void function Inventory(){
   "/=/=/=/=/ /=/=/=/=/"
   "/=/=/=/=/ /=/=/=/=/"
