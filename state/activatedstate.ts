@@ -1,6 +1,5 @@
 import '../particle/boson'
-import '../particle/fermion'
+import '../particle/photo'
 enum activatedstate{
-     boson,fermion
+     boson,photo
 }
-console.log(activatedstate,'boson','fermion')
