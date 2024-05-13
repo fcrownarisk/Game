@@ -23,6 +23,6 @@ void function t(){
     const t9 = TimeRanges
     const t10 = AnimationTimeline
     const t11 = HTMLTimeElement
-    const t0 = new  DocumentTimeline
+    const t0 = new DocumentTimeline
 return [t9,t10,t11,t0]
 }
