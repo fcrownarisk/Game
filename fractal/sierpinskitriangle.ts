@@ -22,7 +22,7 @@ void function drawTetrahedron(){
   for (let i = 0; i < 4; i++) {
     const edges = [i * 2, i * 2 + 1, ((i + 1) % 4) * 2, ((i + 1) % 4) * 2 + 1]
     const normals = calculateNormals(vertices, edges)
-    console.log(`Drawing face with vertices: ${edges}`);
+    console.log(`Drawing face with vertices: {edges}`);
     console.log(normals)
   }
 }
@@ -34,7 +34,7 @@ function calculateNormals(vertices: number[][], edges: number[]){
     const v3 = vertices[edges[(i + 1) * 2 + 1]]
         const vectorAB = calculateVector(v1, v2);
     const vectorAC = calculateVector(v1, v3);
-
+    
     normal[0] += (vectorAB[1] * vectorAC[2] - vectorAB[2] * vectorAC[1]);
     normal[1] += (vectorAB[2] * vectorAC[0] - vectorAB[0] * vectorAC[2]);
     normal[2] += (vectorAB[0] * vectorAC[1] - vectorAB[1] * vectorAC[0]);
