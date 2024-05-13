@@ -9,15 +9,15 @@ void function CantorLine(){
        this.String = CantorLine.toString
        this.String = CantorLine.toString
 }
-void  function HilbertCurve(){
+void function HilbertCurve(){
         this.Storage = new HilbertCurve()
         this.Location = new HilbertCurve()
 }
-void  function kochsnowflake(){
+void function kochsnowflake(){
         this.setInterval = kochsnowflake
         this.setTimeout = kochsnowflake
 }
-void  function Mandelbrotset(){
+void function Mandelbrotset(){
         this.moveBy = MandelbrotSet
         this.moveTo = MandelbrotSet
 }
