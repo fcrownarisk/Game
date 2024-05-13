@@ -1,4 +1,3 @@
-
 import "./Pyramid"
 class Point {
     x: number;
@@ -24,5 +23,4 @@ export const faces: Point[][] = [
      [vertices[1], vertices[2], vertices[4]],
      [vertices[2], vertices[3], vertices[4]]
 ]
-console.log(vertices);
-console.log(faces);
+console.log(vertices,faces)
