@@ -1,4 +1,3 @@
-
 export function calculateIcosahedronVerticesAndEdges(radius: number): { vertices: [number, number, number][], edges: [number, number][] } {
     const phi = (1 + Math.sqrt(5)) / 2;
     console.log(phi)
