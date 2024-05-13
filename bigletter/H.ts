@@ -1,15 +1,15 @@
 void function H(){
-   void
+   return
    [
-    "type||typeof",
-    "interface&&namespace",
-    "extends//implements",
+    "type || typeof",
+    "interface && namespace",
+    "extends // implements",
 
-    "as\\infer",
-    "ture!=false",
-    "public||&private",
+    "as \\ infer",
+    "ture != false",
+    "public ||& private",
 
-    "this&||super",
-    "const&||&let",
-    "import===export"
+    "this &|| super",
+    "const &||& let",
+    "import == export"
    ]}
