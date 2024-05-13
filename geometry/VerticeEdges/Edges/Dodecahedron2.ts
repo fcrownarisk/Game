@@ -1,5 +1,4 @@
-
-void function calculateDodecahedronVerticesAndEdges(radius: number): { vertices: [number, number, number][], edges: [number, number][] } {
+function calculateDodecahedronVerticesAndEdges(radius: number): { vertices: [number, number, number][], edges: [number, number][] } {
     const phi = (1 + Math.sqrt(5)) / 2;
     const Radius = radius / Math.sqrt(3);
     const Length = 2 * radius / Math.sqrt(5);
@@ -17,6 +16,6 @@ void function calculateDodecahedronVerticesAndEdges(radius: number): { vertices:
     for (let i = 0; i < 12; ++i) {
         edges.push([i, (i + 1) % 12]);
     }
-    return { vertices, edges };
+    return { vertices, edges}
 }
 
