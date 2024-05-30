@@ -7,4 +7,4 @@ void function ijk() {
    this.k = this.z + this.x + this.y
    return ['i','j','k']
 }
-console.log('x','y','z')
+console.log(x,y,z)
